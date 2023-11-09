@@ -11,6 +11,6 @@ import time
 import os
 from PIL import Image
 from tempfile import TemporaryDirectory
+from datasets import load_dataset
 
-
-print("wtf")
+dataset = load_dataset("huggan/wikiart")
